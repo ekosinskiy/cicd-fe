@@ -30,6 +30,10 @@ phases:
   # - command
   pre_build:
     commands:
+      - echo "Check NPM version"
+      - npm -v
+      - echo "Check NodeJS version"
+      - nodejs -v
       - echo "Install source dependecies"
       - npm install
       # - command
