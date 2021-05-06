@@ -61,8 +61,8 @@ artifacts:
     # - location
     # - location
     #name: $(date +%Y-%m-%d)
-    discard-paths: no
-    base-directory: dist
+  discard-paths: no
+  base-directory: dist
     #cache:
     #paths:
     # - paths
