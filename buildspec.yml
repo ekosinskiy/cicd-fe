@@ -33,7 +33,7 @@ phases:
       - echo "Check NPM version"
       - npm -v
       - echo "Check NodeJS version"
-      - nodejs -v
+      - node -v
       - echo "Install source dependecies"
       - npm install
       # - command
