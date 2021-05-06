@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  angular:
+    build:
+      context: ./angular
+    volumes:
+      - ./../:/var/www/
+    ports:
+      - "${FRONTEND_PORT}:4200"
+    networks:
+      - appnet
+    tty: true
+
+networks:
+  appnet:
+    driver: "bridge"
